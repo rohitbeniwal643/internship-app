@@ -1,0 +1,79 @@
+.blog-container {
+  margin-top: 70px;
+  background: #0b0b0b;
+  color: #fff;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Header with Button */
+.blog-header-with-btn {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 1.5rem;
+}
+
+.create-btn {
+  background-color: #f4c20d;
+  color: #111;
+  font-weight: bold;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.create-btn:hover {
+  background-color: #c69801;
+}
+
+/* Header text */
+.blog-header {
+  text-align: center;
+}
+
+.blog-tag {
+  display: inline-block;
+  background: #333;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+
+.blog-header h1 {
+  margin: 1rem 0;
+  font-size: 2rem;
+}
+
+/* Categories */
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.category-btn {
+  background: #111;
+  border: 1px solid #333;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.category-btn:hover {
+  background-color: #202020;
+  transform: scale(1.06);
+}
+
+.category-btn.active {
+  background-color: #f4c20d;
+  color: #111;
+  font-weight: bold;
+}

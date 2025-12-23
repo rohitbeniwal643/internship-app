@@ -1,0 +1,19 @@
+/* Base style */
+.custom-toast {
+  background-color: #008080;
+  color: white;
+  border: 2px solid yellow;  /* border applied */
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive override for mobile */
+@media (max-width: 768px) {
+  .custom-toast {
+    font-size: 12px;
+    padding: 0.3rem 0.6rem;
+    border: 2px solid yellow;  /* repeat border for mobile */
+  }
+}

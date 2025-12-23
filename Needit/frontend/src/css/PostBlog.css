@@ -1,0 +1,158 @@
+.postblog-container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    background-color: #111;
+    padding: 2rem;
+    
+}
+
+.postblog-form {
+    background: #151515;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 900px; /* Desktop */
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    box-shadow: 0 0 20px rgba(244, 194, 13, 0.1);
+    border: 1px solid #222;
+    
+}
+
+.postblog-title {
+    text-align: center;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+label {
+    font-size: 0.95rem;
+    color: #ccc;
+}
+
+input,
+textarea,
+select {
+    padding: 0.8rem;
+    border-radius: 6px;
+    border: 1px solid #333;
+    background: #222;
+    color: #fff;
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 200px;
+    resize: vertical;
+}
+
+
+
+/* Buttons */
+.post-btn {
+    background-color: #f4c20d;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #111;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: all 0.3s ease;
+}
+
+.post-btn:hover {
+    background-color: #c69801;
+    transform: scale(1.05);
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  background-color: #ab9f6f;
+  color: #000000;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #6b6a5a;
+}
+
+.update-btn {
+  background-color: #d1ab11;
+  color: #000000;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;  
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.update-btn:hover {
+  background-color: #9b7608;
+}
+
+/* 🔥 Responsive Styles */
+@media (max-width: 768px) {
+  .postblog-form {
+    max-width: 600px;   /* smaller on tablets */
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .postblog-title {
+    font-size: 1.5rem;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .postblog-form {
+    max-width: 95%;   /* almost full width on small mobiles */
+    padding: 1rem;
+    gap: 0.8rem;
+  }
+
+  .postblog-title {
+    font-size: 1.3rem;
+  }
+
+  input,
+  textarea,
+  select {
+    font-size: 0.85rem;
+    padding: 0.6rem;
+  }
+
+  textarea {
+    min-height: 150px; /* shorter on small devices */
+  }
+
+  .cancel-btn,
+  .update-btn,
+  .post-btn {
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 20px;
+  }
+}
