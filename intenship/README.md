@@ -5,7 +5,7 @@ NEEDIT is a full-stack web application that enables students to share **authenti
 The platform is designed with a focus on **performance, scalability, and secure access**, ensuring a smooth and reliable user experience.
 
 🔗 **Project Repository:**  
-https://github.com/adiilansarii/Needit
+
 
 ---
 
