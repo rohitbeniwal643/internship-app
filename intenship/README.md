@@ -83,8 +83,7 @@ The platform is designed with a focus on **performance, scalability, and secure 
 
 ---
 
-## 📂 Project Setup
 
 
-git clone https://github.com/adiilansarii/Needit.git
-cd Needit
+
+
