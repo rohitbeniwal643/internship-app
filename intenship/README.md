@@ -85,7 +85,6 @@ The platform is designed with a focus on **performance, scalability, and secure 
 
 ## 📂 Project Setup
 
-### 1️⃣ Clone the Repository
-```bash
+
 git clone https://github.com/adiilansarii/Needit.git
 cd Needit
